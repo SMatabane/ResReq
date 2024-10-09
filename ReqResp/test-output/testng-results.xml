@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-08T09:45:47 SAST" name="RespReqSuite" finished-at="2024-10-08T09:45:51 SAST" duration-ms="4012">
+    <groups>
+    </groups>
+    <test started-at="2024-10-08T09:45:47 SAST" name="All-Tests" finished-at="2024-10-08T09:45:51 SAST" duration-ms="4012">
+      <class name="com.resreq.tests.DeleteRequest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.resreq.tests.DeleteRequest@c20be82]" started-at="2024-10-08T09:45:47 SAST" name="beforeMethod" finished-at="2024-10-08T09:45:47 SAST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postRequest()[pri:0, instance:com.resreq.tests.DeleteRequest@c20be82]" started-at="2024-10-08T09:45:47 SAST" name="postRequest" description="Delete request test" finished-at="2024-10-08T09:45:49 SAST" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.resreq.tests.DeleteRequest@c20be82]" started-at="2024-10-08T09:45:49 SAST" name="afterMethod" finished-at="2024-10-08T09:45:49 SAST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest status=SUCCESS method=DeleteRequest.postRequest()[pri:0, instance:com.resreq.tests.DeleteRequest@c20be82] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.resreq.tests.DeleteRequest -->
+      <class name="com.resreq.tests.PostRquest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.resreq.tests.PostRquest@35e52059]" started-at="2024-10-08T09:45:51 SAST" name="beforeMethod" finished-at="2024-10-08T09:45:51 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postRequest()[pri:0, instance:com.resreq.tests.PostRquest@35e52059]" started-at="2024-10-08T09:45:51 SAST" name="postRequest" description="Post request test" finished-at="2024-10-08T09:45:51 SAST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.resreq.tests.PostRquest@35e52059]" started-at="2024-10-08T09:45:51 SAST" name="afterMethod" finished-at="2024-10-08T09:45:51 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest status=SUCCESS method=PostRquest.postRequest()[pri:0, instance:com.resreq.tests.PostRquest@35e52059] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.resreq.tests.PostRquest -->
+      <class name="com.resreq.tests.GetRequest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.resreq.tests.GetRequest@54336c81]" started-at="2024-10-08T09:45:49 SAST" name="beforeMethod" finished-at="2024-10-08T09:45:49 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getRequest()[pri:0, instance:com.resreq.tests.GetRequest@54336c81]" started-at="2024-10-08T09:45:49 SAST" name="getRequest" description="Get request test" finished-at="2024-10-08T09:45:50 SAST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.resreq.tests.GetRequest@54336c81]" started-at="2024-10-08T09:45:50 SAST" name="afterMethod" finished-at="2024-10-08T09:45:50 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRequest status=SUCCESS method=GetRequest.getRequest()[pri:0, instance:com.resreq.tests.GetRequest@54336c81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.resreq.tests.GetRequest -->
+      <class name="com.resreq.tests.PatchRequest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.resreq.tests.PatchRequest@1556f2dd]" started-at="2024-10-08T09:45:50 SAST" name="beforeMethod" finished-at="2024-10-08T09:45:50 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postRequest()[pri:0, instance:com.resreq.tests.PatchRequest@1556f2dd]" started-at="2024-10-08T09:45:50 SAST" name="postRequest" description="Patch request test" finished-at="2024-10-08T09:45:51 SAST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.resreq.tests.PatchRequest@1556f2dd]" started-at="2024-10-08T09:45:51 SAST" name="afterMethod" finished-at="2024-10-08T09:45:51 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postRequest status=SUCCESS method=PatchRequest.postRequest()[pri:0, instance:com.resreq.tests.PatchRequest@1556f2dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.resreq.tests.PatchRequest -->
+    </test> <!-- All-Tests -->
+  </suite> <!-- RespReqSuite -->
+</testng-results>
